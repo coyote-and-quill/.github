@@ -13,7 +13,7 @@ profile/README.md                   # the org profile card (public-facing)
 .github/ISSUE_TEMPLATE/             # feature.md, bug.md: the issue-first defaults
 .github/pull_request_template.md
 SECURITY.md                         # the private disclosure contact
-.github/workflows/ci.yml            # gitleaks, and the kit check
+.github/workflows/ci.yml            # gitleaks
 ```
 
 ## Quality gates
@@ -28,7 +28,7 @@ Also preview the templates' Markdown before pushing; a broken template shows in 
 
 ## Required checks on `main`
 
-`ci` (gitleaks), from `.github/workflows/ci.yml`. A PR cannot merge red. Don't weaken, skip or rename a check to get green. `kit-check` runs too, but it isn't required.
+`ci` (gitleaks), from `.github/workflows/ci.yml`. A PR cannot merge red. Don't weaken, skip or rename a check to get green. There's no `kit-check` job: this repo is public, and GitHub doesn't let a public repo call the private skills repo's workflow. The weekly kit sweep checks it instead.
 
 ## Git workflow
 
