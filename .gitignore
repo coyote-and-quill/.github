@@ -1,0 +1,5 @@
+.DS_Store
+# Secrets never enter the repo (the kit).
+.env
+.env.local
+.env.*
