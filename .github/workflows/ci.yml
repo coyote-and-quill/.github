@@ -19,3 +19,8 @@ jobs:
           curl -sSfL https://github.com/gitleaks/gitleaks/releases/download/v8.21.2/gitleaks_8.21.2_linux_x64.tar.gz \
             | tar -xz gitleaks
           ./gitleaks detect --source . --no-banner --redact
+
+  # Checks this repo against the C&Q agentic SDLC kit (coyote-and-quill/skills#131).
+  # Not a required check; making it one is Glen's call.
+  kit-check:
+    uses: coyote-and-quill/skills/.github/workflows/kit-check.yml@v1
