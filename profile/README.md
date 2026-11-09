@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| **TraceWell** | The compliance backbone for healthcare innovation — FDA 21 CFR Part 11 + HIPAA-aligned requirements, UAT, and traceability. *Patent pending: AI-integrated quality system marking and compliance mapping.* |
+| **TraceWell** | The compliance backbone for healthcare innovation — FDA 21 CFR Part 11 + HIPAA-aligned requirements, UAT, and traceability. |
 | **Fathom** | Agentic compliance partner — decomposes user stories into citable regulatory obligations and gates progress until each is addressed. |
 
 ## How we work
